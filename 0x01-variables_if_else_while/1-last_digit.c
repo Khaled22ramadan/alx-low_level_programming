@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlio.h>
+#include <stdlib.h>
 
 /**
  *main -A.program will assign a random number to the variable n
