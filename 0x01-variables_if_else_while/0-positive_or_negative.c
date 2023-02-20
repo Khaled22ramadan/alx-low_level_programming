@@ -1,32 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main . main function is to generate random number
- *
- * Return: Always 0 (success)
+ * main -A. program will assign a random number to the variable n
+ * Return: 0 (Success )
  */
 
-
-int main (void)
+int main(void)
 {
 int n;
-printf("Enter integer number :\n");
-scanf ("%d",&n);
-
-
-       if (n>0)
-        {
-	printf("%d is positive :n \n");
-	}
-	else if(n<0)
-	{
-	printf ("%d is negative:n \n");
-        }
-        else if(n==0)
-	{
-	printf ("%d is zero:n \n");	
-        }
-return 0;
+srand(time(NULL));
+n = rand() % RAND_MAX;
+printf("The number, %d, ", n);
+if (n > 0)
+{
+printf("is positive\n");
+}
+else if (n == 0)
+{
+printf("is zero\n");
+}
+else
+{
+printf("is negative\n");
+}
+return (0);
 }
