@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - A. programe that prints the size of various type
- * Return 0 (Success)
+ * main - A. program that prints the size of various type 0n the computer
+ * Return: 0 (Success)
  */
-
 int main(void)
 {
 
