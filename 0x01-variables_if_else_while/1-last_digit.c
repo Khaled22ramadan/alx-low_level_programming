@@ -2,19 +2,19 @@
 #include <stdlio.h>
 
 /**
- *main . return alphabets
+ *main -A.program will assign a random number to the variable n
  *
- * Return Always 0 (success)
+ * Return: 0 (success)
  */
 
-int main (void)
+int main(void)
 {
-	int ch = 'a';
-	while (ch <= '2' )
-	{
-		putchar(ch);
-		ch++;
-	}
-	putchar ('\n');
-	return (0);
+int ch = 'a';
+while (ch <= '2')
+{
+putchar(ch);
+ch++;
+}
+putchar ('\n');
+return (0);
 }
