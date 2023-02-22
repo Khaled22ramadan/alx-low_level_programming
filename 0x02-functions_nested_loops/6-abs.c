@@ -10,6 +10,5 @@ int _abs(int n)
 	int x;
 
 	x = _abs(n);
-	_putchar("%d\n", x);
-return (0);
+	return (x);
 }
